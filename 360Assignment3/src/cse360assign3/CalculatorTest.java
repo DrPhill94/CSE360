@@ -69,7 +69,7 @@ public class CalculatorTest {
 		dum.subtract (2);
 		dum.multiply (2);
 		dum.add(5);
-		assertEquals(dum.getHistory(), "0 + 4 – 2 * 2 + 5");
+		assertEquals(dum.getHistory(), "0 + 4 - 2 * 2 + 5");
 	}
 
 }
