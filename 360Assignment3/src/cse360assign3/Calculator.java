@@ -31,12 +31,12 @@ public class Calculator {
 	
 	public void subtract (int value) {	//Subtracts parameter from existing total
 		total -= value;
-		history += " + " + value;
+		history += " - " + value;
 	}
 	
 	public void multiply (int value) {	//Multiplies existing total by parameter
 		total *= value;
-		history += " + " + value;
+		history += " * " + value;
 	}
 	
 	public void divide (int value) {	//Divides existing total by parameter, assuming not 0
