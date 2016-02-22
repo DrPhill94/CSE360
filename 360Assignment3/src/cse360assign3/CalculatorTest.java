@@ -65,7 +65,11 @@ public class CalculatorTest {
 	
 	@Test
 	public void testGetHistory() {
-		assertEquals(dum.getHistory(), "");
+		dum.add (4);
+		dum.subtract (2);
+		dum.multiply (2);
+		dum.add(5);
+		assertEquals(dum.getHistory(), "0 + 4 – 2 * 2 + 5");
 	}
 
 }
