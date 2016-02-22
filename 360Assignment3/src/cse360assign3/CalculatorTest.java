@@ -88,6 +88,6 @@ public class CalculatorTest {
 		dum.subtract(2);
 		dum.multiply(2);
 		dum.add(5);
-		assertEquals(dum.getTotal(), 9);	//Asserts history string keeps proper track of operations performed
+		assertEquals(dum.getTotal(), 9);	//Asserts calculations are correct
 	}
 }
