@@ -72,6 +72,7 @@ public class CalculatorTest {
 		assertEquals(dum.getHistory(), "0 + 4 - 2 * 2 + 5");	//Asserts history string keeps proper track of operations performed
 	}
 	
+	@Test
 	public void testGetHistory2() {
 		dum.add(4);
 		dum.subtract(2);
